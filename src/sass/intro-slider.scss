@@ -1,0 +1,113 @@
+#intro-slider {
+	strong {
+		@apply text-white;
+	}
+}
+
+.swiper-horizontal > .swiper-scrollbar,
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+	@apply bg-transparent bottom-6 #{!important};
+}
+
+.intro-swiper {
+	.swiper-scrollbar-drag {
+		@apply bg-transparent border-2 border-white h-[20px] #{!important};
+	}
+}
+
+.swiper-container {
+	position: relative;
+	.swiper {
+		width: 100%;
+		height: 100%;
+	}
+
+	.swiper-slide {
+		text-align: center;
+		font-size: 18px;
+		background: #fff;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.swiper-slide img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.swiper {
+		width: 100%;
+		height: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.swiper-slide {
+		background-size: cover;
+		background-position: center;
+	}
+
+	.mySwiper2 {
+		height: 40% !important;
+		width: 100%;
+		min-height: 500px !important;
+	}
+
+	.mySwiper {
+		height: 20%;
+		box-sizing: border-box;
+		padding: 10px 0;
+	}
+
+	.mySwiper .swiper-slide {
+		width: 25%;
+		height: 65%;
+		opacity: 0.4;
+	}
+
+	.mySwiper .swiper-slide-thumb-active {
+		opacity: 1;
+	}
+
+	.swiper-slide img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+}
+.swiper-button-next {
+	right: 20px !important;
+	top: 23% !important;
+	color: white !important;
+}
+.swiper-button-prev {
+	left: 20px !important;
+	top: 23% !important;
+	color: white !important;
+}
+
+/* Single project page swiper arrows are aligning correctly
+Therefore this code is used to align teh nex& previous white
+image arrow*/
+.postid-1360 .swiper-button-next::after {
+	position: relative;
+	top: 100px !important;
+}
+.postid-1360 .swiper-button-prev::after {
+	position: relative;
+	top: 100px !important;
+}
+
+.postid-1354 .swiper-button-next::after {
+	position: relative;
+	top: 100px !important;
+}
+
+.postid-1354 .swiper-button-prev::after {
+	position: relative;
+	top: 100px !important;
+}
